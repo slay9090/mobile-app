@@ -3,9 +3,21 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
+
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
+  state: {
+    person: {},
+  },
+  mutations: {
+
+    setPersonData(state: any, data: any): void {
+      console.log(data);
+      state.person = data;
+    },
+  },
   actions: {},
-  modules: {},
+  getters: {
+    getPerson: (state) => state.person,
+  },
+  // modules: {},
 });

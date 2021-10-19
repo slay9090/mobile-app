@@ -1,0 +1,41 @@
+.btext{
+  background: #292B38;
+  box-shadow: inset 4px 4px 8px rgba(11, 11, 17, 0.91), inset -1px -1px 13px rgba(255, 255, 255, 0.34);
+  border-radius: 50px;
+  width: 297px;
+  height: 44px;
+  display: flex;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+  &_element{
+    background: transparent;
+    flex: 1 1 auto;
+    border: none;
+    padding: 0 10px;
+    font-family: SF-Pro-Light, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    outline: none;
+
+  }
+  &_suffix{
+    width: 70px;
+    font-family: SF-Pro-Light, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color:  #C2C9D4 ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+  }
+
+}

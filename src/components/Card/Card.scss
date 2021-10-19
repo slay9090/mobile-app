@@ -1,0 +1,21 @@
+.card{
+  width: 158px;
+  height: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(180deg, #353744 0%, #191B28 100%);
+  box-shadow: 4px 4px 8px rgba(11, 11, 17, 0.91), -1px -1px 13px rgba(255, 255, 255, 0.34);
+  border-radius: 25px;
+  margin: 0 10px;
+  transition: 1s;
+  &:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  }
+}
+.is-selected{
+  background: linear-gradient(180deg, #353744 0%, #191B28 100%);
+  box-shadow: inset 4px 4px 8px rgba(11, 11, 17, 0.91), inset -1px -1px 13px rgba(255, 255, 255, 0.34);
+
+}

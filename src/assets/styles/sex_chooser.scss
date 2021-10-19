@@ -1,0 +1,14 @@
+.sex-chooser{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_panel{
+    height: 325px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+}

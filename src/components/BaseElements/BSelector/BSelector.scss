@@ -1,0 +1,93 @@
+.bselector{
+  background: #292B38;
+  box-shadow: inset 4px 4px 8px rgba(11, 11, 17, 0.91), inset -1px -1px 13px rgba(255, 255, 255, 0.34);
+  border-radius: 50px;
+  width: 297px;
+  height: 44px;
+  display: flex;
+  padding: 0 10px;
+  position: relative;
+  z-index: 2;
+  &_element{
+    background: transparent;
+    flex: 1 1 auto;
+    border: none;
+    padding: 0 10px;
+    font-family: SF-Pro-Light, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+
+  }
+  &_suffix{
+    width: 70px;
+    font-family: SF-Pro-Light, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    outline: none;
+    justify-content: end;
+    cursor: pointer;
+
+    > img {
+      padding: 5px;
+    }
+
+  }
+  &_dropdown-list{
+    font-family: SF-Pro-Light, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    //display: flex;
+    //align-items: flex-end;
+    color: #FFFFFF;
+    background: #292B38;
+    box-shadow: 4px 4px 8px rgba(11, 11, 17, 0.91), -1px -1px 13px rgba(255, 255, 255, 0.34);
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    &_title{
+
+      .title_box{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 10px 10px 10px;
+        font-size: 18px;
+      }
+      .separator-line{
+        border: 1px solid #5E6477;
+        width: 93%;
+        margin: 0 auto;
+      }
+    }
+    &_items{
+      padding: 10px;
+      text-align: left;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      .options_item{
+        margin: 0;
+        padding: 5px 0;
+        cursor: pointer;
+        &:hover{
+          background: linear-gradient(180deg, #252734 1.5%, #1A1C29 99.63%);
+        }
+      }
+    }
+  }
+}
