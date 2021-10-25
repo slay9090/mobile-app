@@ -14,3 +14,6 @@ https://www.figma.com/file/BMgv2hIZ3nGZfJoDOnQLmP/Untitled
 Интерфейс телефона делать не надо. Достаточно создать контейнер с органиченной шириной и высотой.
 Для работы использовать сборшик webpack или любой другой.
 ```
+
+####Демо:
+https://slay9090.github.io/mobile-app
