@@ -1,24 +1,16 @@
 # mobile-app
 
-## Project setup
-```
-npm install
-```
+https://www.figma.com/file/BMgv2hIZ3nGZfJoDOnQLmP/Untitled
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Сверстать и создать мини приложение на Vue js фреймфорке.
 
-### Compiles and minifies for production
 ```
-npm run build
-```
+Функционал:
+При нажатии "далее" должен перелистнуться слайд и открыться поля ввода.   
+Вторая кнопка "далее" ни к чему не приводит.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Реализовать плавную анимацию нажатия на кнопках и выпадающий список.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Интерфейс телефона делать не надо. Достаточно создать контейнер с органиченной шириной и высотой.
+Для работы использовать сборшик webpack или любой другой.
+```
