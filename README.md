@@ -1,8 +1,7 @@
 # mobile-app
 
-https://www.figma.com/file/BMgv2hIZ3nGZfJoDOnQLmP/Untitled
-
 #### Сверстать и создать мини приложение на Vue js фреймфорке.
+https://www.figma.com/file/BMgv2hIZ3nGZfJoDOnQLmP/Untitled
 
 #### Функционал:
 ```
